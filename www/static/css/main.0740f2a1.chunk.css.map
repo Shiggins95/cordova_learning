@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/App.scss"],"names":[],"mappings":"AAEA,KACE,iBAAA,CACA,YAAA,CACA,2BAAA,CACA,oBAAA","file":"main.0740f2a1.chunk.css","sourcesContent":["$cube_size: 300px;\n\n.App {\n  padding-top: 100px;\n  display: grid;\n  grid-template-rows: 1fr 10fr;\n  place-content: center;\n}\n"]}

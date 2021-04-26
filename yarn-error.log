@@ -1,0 +1,101 @@
+Arguments: 
+  /usr/local/Cellar/node/15.14.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/stephen/Library/Android/sdk/emulator:/Users/stephen/Library/Android/sdk/emulator:/Users/stephen/Library/Android/sdk//emulator:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/stephen/myProjects/apps/cordovaReactProject/node_modules/.bin:/Users/stephen/Library/Android/sdk/platform-tools:/Users/stephen/Library/Android/sdk/tools/:/Users/stephen/Library/Android/sdk/platform-tools:/Users/stephen/Library/Android/sdk/tools/:/Users/stephen/Library/Android/sdk/platform-tools:/Users/stephen/Library/Android/sdk/tools/
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/stephen/myProjects/apps/cordovaReactProject/package.json: Unexpected token } in JSON at position 1776
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "io.cordova.hellocordova",
+    "displayName": "HelloCordova",
+    "version": "1.0.0",
+    "description": "A sample Apache Cordova application that responds to the deviceready event.",
+    "main": "index.js",
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+      "serve": "webpack serve --host 0.0.0.0 --config webpack.config.js --progress --profile --content-base src/"
+    },
+    "keywords": [
+      "ecosystem:cordova"
+    ],
+    "homepage": "./",
+    "author": "Apache Cordova Team",
+    "license": "Apache-2.0",
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    },
+    "dependencies": {
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "babel-loader": "^8.2.2",
+      "prettier": "^2.2.1",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-scripts": "4.0.3",
+      "rimraf": "^3.0.2",
+      "web-vitals": "^1.0.1",
+      "webpack": "^4.44.2"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.13.16",
+      "@babel/preset-env": "^7.13.15",
+      "@babel/preset-react": "^7.13.13",
+      "cordova-android": "^9.1.0",
+      "cordova-ios": "^6.2.0",
+      "cordova-plugin-whitelist": "^1.3.4",
+      "eslint": "^7.2.0",
+      "eslint-config-airbnb": "18.2.1",
+      "eslint-config-prettier": "^8.2.0",
+      "eslint-plugin-import": "^2.22.1",
+      "eslint-plugin-jsx-a11y": "^6.4.1",
+      "eslint-plugin-prettier": "^3.4.0",
+      "eslint-plugin-react": "^7.21.5",
+      "eslint-plugin-react-hooks": "^1.7.0",
+      "sass": "^1.32.11",
+    },
+    "cordova": {
+      "plugins": {
+        "cordova-plugin-whitelist": {}
+      },
+      "platforms": [
+        "android",
+        "ios"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

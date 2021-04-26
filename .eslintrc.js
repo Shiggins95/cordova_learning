@@ -27,5 +27,8 @@ module.exports = {
     'no-restricted-syntax': 'off',
     'react/require-default-props': 'off',
     'prettier/prettier': ['error'],
+    'jsx-a11y/no-static-element-interactions': 'off',
+    'jsx-a11y/click-events-have-key-events': 'off',
   },
+  overrides: [{ files: 'index.jsx', rules: { 'no-undef': 'off' } }],
 };
